@@ -1,7 +1,7 @@
 import * as uuid from 'uuid'
 
-import { TodosAccess } from './todosAccess'
-import { createSignedUrl, generateAttachmentUrl } from './attachmentUtils'
+import { TodosAccess } from '../dataLayer/todosAccess'
+import { createSignedUrl, generateAttachmentUrl } from '../dataLayer/attachmentUtils'
 
 import { TodoItem } from '../models/TodoItem'
 
